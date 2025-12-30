@@ -1,32 +1,77 @@
 /* Basic CSS Sheet*/
 
 body {
-  font-family: 'Times New Roman', Times, serif;
-  background-color: rgb(163, 163, 148);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #a8a893;
 }
+/* Design adjustments based on feedback */
+.about-me main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #f5f5f5;
+  border-radius: 12px;
+}
+
+.about-me header {
+  text-align: center;
+  padding: 40px 20px;
+}
+/*Image of Jonathan Marcano*/
 .about-me header img {
+  border: 4px solid #000103;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
   width: 300px;
   height: auto;
+  display: block;
+  margin: 0 auto 16px;
 }
+/*Header text Jonathan Marcano */
 .about-me h1 {
   color: #096cf6;
   text-align: center;
-  font-family: 'Times New Roman', Times, serif;
   font-weight: bold;
-
+}
+/* Main content sections into cards */
+.about-me section {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+   box-shadow: 0 4px 10px rgba(0,0,0,0.08);
 }
 
+/* Section Titles */
 .about-me h2 {
   color: #096cf6;
+  font-weight: bold;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+/* Unordered List Styles */
+.about-me ul {
+  list-style: none;
+  padding: 0;
 }
 
+/* List Item Styles */
+.about-me li {
+  background-color: #eef2ff;
+  margin: 6px 0;
+  padding: 8px 12px;
+  border-radius: 6px;
+}
 
+/* ---------- Paragraph Styles ---------- */
 .about-me p {
   color: #000000;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 20px;
-  font-weight: normal;
+  margin: 0 0 12px;
 }
+
 a {
   color: #156dcc;
   text-decoration: none;
