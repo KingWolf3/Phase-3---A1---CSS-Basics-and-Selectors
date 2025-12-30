@@ -1,20 +1,34 @@
-/* Basic CSS styling */
+/* Basic CSS Sheet*/
 
 body {
-  font-family: Arial, sans-serif;
-  background-color: lightyellow;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgb(163, 163, 148);
+}
+.about-me header img {
+  width: 300px;
+  height: auto;
+}
+.about-me h1 {
+  color: #096cf6;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+
 }
 
-h1 {
-  color: #de0c55;
+.about-me h2 {
+  color: #096cf6;
 }
 
-p {
-  color: #374151;
-}
 
+.about-me p {
+  color: #000000;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: normal;
+}
 a {
-  color: #cc1515;
+  color: #156dcc;
   text-decoration: none;
 }
 
